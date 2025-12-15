@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Всякое/GCC/gcc/include/c++/14.1.0",
+                "D:/Всякое/GCC/gcc/include/c++/14.1.0/x86_64-w64-mingw32",
+                "D:/Всякое/GCC/gcc/include/c++/14.1.0/backward",
+
+                "D:/Всякое/GCC/gcc/lib/gcc/x86_64-w64-mingw32/14.1.0/include",
+                "D:/Всякое/GCC/gcc/lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed",
+                "D:/Всякое/GCC/gcc/x86_64-w64-mingw32/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "D:/Всякое/GCC/gcc/bin/g++.exe",
+            "compilerArgs": [
+                "-std=c++17"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }
+    ],
+    "version": 4
+}
